@@ -5,8 +5,8 @@ Terima kasih sudah memesan di BinarFud
 
 Dibawah ini adalah pesanan anda
 
------------------------------- +
-Total			28000
+Es Jeruk		2	10000Nasi Goreng		1	15000------------------------------ +
+Total			50000
 
 Pembayaran: BinarCash
 
