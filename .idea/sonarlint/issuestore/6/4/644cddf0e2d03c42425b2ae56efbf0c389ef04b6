@@ -1,9 +1,0 @@
-
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸¬œîøÿÿÿÿ8ö²²¯ç1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶¥ºÑÿÿÿÿÿ8÷²²¯ç1
-£
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(À¬¤Âþÿÿÿÿ8ý²²¯ç1
-ž
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ší‘£8þ²²¯ç1
-£
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÐØÀÅúÿÿÿÿ8þ²²¯ç1
