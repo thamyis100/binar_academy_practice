@@ -1,13 +1,13 @@
 
-a
-java:S1192"FDefine a constant instead of duplicating this literal "Apple" 3 times.(«‡•©˝ˇˇˇˇ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(û„û“˙ˇˇˇˇ
-@	java:S106"+Replace this use of System.out by a logger.(äõŸó
-E	java:S106"+Replace this use of System.out by a logger.(…¥”≤¸ˇˇˇˇ
-E	java:S106"+Replace this use of System.out by a logger.(£ãº˝ˇˇˇˇ
-@	java:S106"+Replace this use of System.out by a logger.(∆Œ ò
-@	java:S106"+Replace this use of System.out by a logger.(ò©‚ë
-E	java:S106#"+Replace this use of System.out by a logger.(°ˆù›ˇˇˇˇˇ
-@	java:S1064"+Replace this use of System.out by a logger.(”ä∆ß
-E	java:S1069"+Replace this use of System.out by a logger.(–Ãÿ∏˙ˇˇˇˇ
-@	java:S106>"+Replace this use of System.out by a logger.(ﬁ‘Åé
+á
+java:S1192"FDefine a constant instead of duplicating this literal "Apple" 3 times.(«‡•©˝ˇˇˇˇJ$e9fc3d4c-e59d-4842-9fe1-3c7ca780ee28
+ö	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(û„û“˙ˇˇˇˇJ$65e0840d-f087-4721-96e2-cab983774db8
+f	java:S106"+Replace this use of System.out by a logger.(äõŸóJ$114f6b9a-ce62-452e-8ad3-b21fd7bf1ae2
+k	java:S106"+Replace this use of System.out by a logger.(…¥”≤¸ˇˇˇˇJ$0e67b385-b8ab-49b9-9a19-f756d77d3f5c
+k	java:S106"+Replace this use of System.out by a logger.(£ãº˝ˇˇˇˇJ$866ef0ab-e5ae-4d41-b654-2b0290f59ed8
+f	java:S106"+Replace this use of System.out by a logger.(∆Œ òJ$718e420e-c34e-43ad-b750-0dec467576a2
+f	java:S106"+Replace this use of System.out by a logger.(ò©‚ëJ$310fb847-9527-46da-846a-88c6483b3b75
+k	java:S106#"+Replace this use of System.out by a logger.(°ˆù›ˇˇˇˇˇJ$0236c392-1ecc-4746-a49b-587540880a81
+f	java:S1064"+Replace this use of System.out by a logger.(”ä∆ßJ$6f2ddf94-8a31-4ae9-86c5-a578d9a5a284
+k	java:S1069"+Replace this use of System.out by a logger.(–Ãÿ∏˙ˇˇˇˇJ$7dfa8c92-6abe-4ddd-a619-62a3ee63be8e
+f	java:S106>"+Replace this use of System.out by a logger.(ﬁ‘ÅéJ$7a4e5e1a-c47a-4d64-aec9-a65944de621c

@@ -1,16 +1,17 @@
 package com.binar.batch7.ch3.pertemuan2;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Optional;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Product {
     private String name;
     private Optional<DetailProduct> detailProduct;
 
-    public Product(String name, Optional<DetailProduct> detailProduct) {
-        this.name = name;
-        this.detailProduct = detailProduct;
-    }
+
 }
