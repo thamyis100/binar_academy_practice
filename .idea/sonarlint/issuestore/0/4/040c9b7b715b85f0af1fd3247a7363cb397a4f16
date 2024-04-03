@@ -1,0 +1,19 @@
+
+Œ
+java:S1854"DRemove this useless assignment to local variable "optionalValueGet".(—Èá‚şÿÿÿÿ8„†¢¤ê1J$40296ac6-01e3-4a55-8746-73e2e07c34b8
+ƒ
+java:S1854";Remove this useless assignment to local variable "product".(¥•Ôªüÿÿÿÿ8…†¢¤ê1J$ed9a6933-5152-46dc-8c0a-c4510b41bf7a
+t
+java:S1481",Remove this unused "product" local variable.(¥•Ôªüÿÿÿÿ8‰†¢¤ê1J$d3c48f25-87eb-4ff7-b3c6-2b95ed07478f
+m	java:S106"+Replace this use of System.out by a logger.(ÂÑ‚¨8Š†¢¤ê1J$9a7536ff-3ceb-40c3-a66c-a2aeac087c3f
+l	java:S106"+Replace this use of System.out by a logger.(›–ñ}8‹†¢¤ê1J$ffd183bc-64f5-4771-bb52-574abdaa7035
+}
+java:S1481"5Remove this unused "optionalValueGet" local variable.(—Èá‚şÿÿÿÿ8Œ†¢¤ê1J$b56149ef-1a7c-41c4-b5b8-a27cfea76b76
+r	java:S106"+Replace this use of System.out by a logger.(¶ø‡ úÿÿÿÿ8†¢¤ê1J$3ba8c80d-3834-4f51-b645-5bf5f2144ba0
+›
+java:S1602""SRemove useless curly braces around statement and then remove useless return keyword(¹«àúÿÿÿÿ8†¢¤ê1J$a597bd2d-9155-4210-80c1-9115fd28e3a4
+m	java:S106&"+Replace this use of System.out by a logger.(áÊÀª8†¢¤ê1J$11a48873-0e75-46a9-a9cc-00ec97adaa6f
+m	java:S106*"+Replace this use of System.out by a logger.(˜¡–8†¢¤ê1J$e9c03865-74b8-4ea7-825d-4768b697a40c
+–
+java:S1602-"SRemove useless curly braces around statement and then remove useless return keyword(Ù¬Õ§8‘†¢¤ê1J$cee6724f-b597-461d-8da6-265cedd0acaa
+r	java:S1061"+Replace this use of System.out by a logger.(¸¥Øİıÿÿÿÿ8‘†¢¤ê1J$24af9017-81da-47f8-b305-556b154f2b6e

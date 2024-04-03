@@ -1,0 +1,18 @@
+
+g
+java:S1192"QDefine a constant instead of duplicating this literal "handling eror 1=" 3 times.(ğ¹ß 
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö›™¨ÿÿÿÿÿ
+\
+java:S2259
+"AA "NullPointerException" could be thrown; "str" is nullable here.(’‡¬ùÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "str".(ÙÀÚÎùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(îÁ–ûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ğ¹ß 
+E	java:S106"+Replace this use of System.out by a logger.(®…‡–ùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(­ìÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ğ¹ß 
+E	java:S106"+Replace this use of System.out by a logger.(‚¢†÷şÿÿÿÿ
+@	java:S106#"+Replace this use of System.out by a logger.(Õ¯¸
+@	java:S106%"+Replace this use of System.out by a logger.(ğ¹ß 
+E	java:S106("+Replace this use of System.out by a logger.(ª°×Ìıÿÿÿÿ

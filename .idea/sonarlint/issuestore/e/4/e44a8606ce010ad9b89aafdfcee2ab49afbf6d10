@@ -1,0 +1,21 @@
+
+]
+java:S1220""Move this file to a named package.8—¸ª¤ê1J$9355e5e8-312e-48a2-9808-f234c4c2b678
+Œ
+java:S1854 "DRemove this useless assignment to local variable "optionalValueGet".(—Èá‚şÿÿÿÿ8Í¡Ú£ê1J$1020003a-8997-4771-977c-411b176fc20f
+ƒ
+java:S1854";Remove this useless assignment to local variable "product".(¥•Ôªüÿÿÿÿ8‰´£ê1J$c5705ba6-38a1-49e7-926a-9cb56218f520
+t
+java:S1481",Remove this unused "product" local variable.(¥•Ôªüÿÿÿÿ8Œ´£ê1J$a1384d2f-937a-43db-a2aa-b218a5b36dde
+m	java:S106"+Replace this use of System.out by a logger.(ÂÑ‚¨8´£ê1J$a28273e8-18d5-457b-bd1d-70af35ed6e00
+l	java:S106"+Replace this use of System.out by a logger.(›–ñ}8´£ê1J$fb5010ad-0c61-4398-a363-3ee52c3e3385
+}
+java:S1481 "5Remove this unused "optionalValueGet" local variable.(—Èá‚şÿÿÿÿ8Ñ¡Ú£ê1J$6e049de0-e5de-4f50-94b7-c469c9241b87
+r	java:S106""+Replace this use of System.out by a logger.(¶ø‡ úÿÿÿÿ8î¡Ú£ê1J$e0030842-db07-4e05-88ce-9d1caf7f2066
+›
+java:S1602%"SRemove useless curly braces around statement and then remove useless return keyword(¹«àúÿÿÿÿ8ğ¡Ú£ê1J$4d9265df-0205-4a5e-a929-6b690be34fd9
+m	java:S106)"+Replace this use of System.out by a logger.(áÊÀª8ñ¡Ú£ê1J$f124a798-2d4d-4b4f-9405-c208f5e86e7d
+m	java:S106-"+Replace this use of System.out by a logger.(˜¡–8ò¡Ú£ê1J$25c5f765-53ee-4740-965e-ccb173907834
+–
+java:S16020"SRemove useless curly braces around statement and then remove useless return keyword(Ù¬Õ§8ò¡Ú£ê1J$404af71f-892b-4342-97ec-69ffb1fe20a3
+r	java:S1064"+Replace this use of System.out by a logger.(¸¥Øİıÿÿÿÿ8ò¡Ú£ê1J$7c8735ce-0812-4438-99e5-24e92a6a3710

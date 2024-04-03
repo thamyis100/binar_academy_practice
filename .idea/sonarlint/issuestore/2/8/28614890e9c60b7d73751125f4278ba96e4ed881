@@ -1,0 +1,13 @@
+
+a
+java:S1192"FDefine a constant instead of duplicating this literal "Apple" 3 times.(Çà¥©ıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãÒúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Š›Ù—
+E	java:S106"+Replace this use of System.out by a logger.(É´Ó²üÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(£‹ğ¼ıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÆÎÊ˜
+@	java:S106"+Replace this use of System.out by a logger.(˜©â‘
+E	java:S106#"+Replace this use of System.out by a logger.(¡öİÿÿÿÿÿ
+@	java:S1064"+Replace this use of System.out by a logger.(ÓŠÆ§
+E	java:S1069"+Replace this use of System.out by a logger.(ĞÌØ¸úÿÿÿÿ
+@	java:S106>"+Replace this use of System.out by a logger.(ŞÔ
