@@ -6,6 +6,7 @@ import lombok.Getter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 
 @Getter
@@ -44,12 +45,10 @@ public class Restoran {
                     
                     Silahkan pilih makanan : """);
             choice = -1;
-            int count = 1;
+
             //looping manggil menu
-            for (Map.Entry<String, Integer> entry : menu.entrySet()) {
-                print(count + ". " + entry.getKey() + "\t" + "\t| " + entry.getValue());
-                count++;
-            }
+            AtomicInteger index = new AtomicInteger(1); // Start index from 1
+            menu.forEach((key, value) -> print(index.getAndIncrement() + ". " + key + "\t" + "\t| " + value));
 
             print("""
                     99. Pesan dan Bayar
@@ -93,7 +92,7 @@ public class Restoran {
     // page
     public static void confirmOrder(List<Order> orders) {
         //variabel
-        int total = 0;
+        AtomicInteger total = new AtomicInteger();
 
         print("""
                 ==========================
@@ -101,12 +100,13 @@ public class Restoran {
                 ==========================
                 """);
 
-        for (Order order:orders){
+        orders.forEach(order -> {
             print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty());
-            total += order.getQty();
-        }
+            total.addAndGet(order.getQty());
+        });
+
         print("------------------------------ +");
-        total(total);
+        total(total.get());
         print("""
                 
                 1. Konfirmasi dan Bayar
@@ -134,11 +134,12 @@ public class Restoran {
                 Dibawah ini adalah pesanan anda
                 """);
 
-                for (Order order1:orders){
-                    print(order1.getMenu() + "\t" + "\t" + (order1.getQty() / menu.get(order1.getMenu())) + "\t" + order1.getQty());
-                }
+                orders.forEach(order ->
+                    print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty())
+                );
+
                 print("------------------------------ +");
-                total(total);
+                total(total.get());
                 print("""
                         
                         Pembayaran: BinarCash
@@ -224,7 +225,7 @@ public class Restoran {
 
 
     //receipt
-    private static void generatePaymentReceipt(List<Order> orders, int total) {
+    private static void generatePaymentReceipt(List<Order> orders, AtomicInteger total) {
         // Prepare the receipt content using StringBuilder
         StringBuilder receiptContent = new StringBuilder();
         String garis="==========================\n";
@@ -233,11 +234,12 @@ public class Restoran {
         receiptContent.append(garis);
         receiptContent.append("Terima kasih sudah memesan di BinarFud\n\n");
         receiptContent.append("Dibawah ini adalah pesanan anda\n\n");
-        for (Order order:orders){
-            receiptContent.append(
-                    order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty());
-            total += order.getQty();
-        }
+
+        orders.forEach(order -> {
+            receiptContent.append(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty());
+            total.addAndGet(order.getQty());
+        });
+
         receiptContent.append("------------------------------ +\n");
         receiptContent.append("Total\t\t\t").append(total).append("\n\n");
         receiptContent.append("Pembayaran: BinarCash\n\n");

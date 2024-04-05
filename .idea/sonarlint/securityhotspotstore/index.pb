@@ -1,71 +1,25 @@
 
-b
-2src/ch2/pertemuan2/inteface/KaryawanInterface.java,e\c\ec62116173a6c661f9cd3493db3ba16b389ecedb
-O
-src/ch2/pertemuan2/vechile.java,5\7\57da77476fa29607a3d9bdffbe0affbce7359dd1
-b
-2src/ch2/pertemuan2/inteface/impl/karyawanimpl.java,b\f\bf92f7d328ddd471d0569b9bf4d1d4c8c7045632
 =
 src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
-O
-src/ch2/challange/restoran.java,9\3\931021d47534f42c0b4c10460524980afd31e037
-O
-src/ch1/pertemuan6/latihan.java,7\7\77c51c36a26317669252441a9a6245d2726ac684
-O
-src/ch2/challange/Restoran.java,5\f\5f28f05f9a18c816861597cbeec0631f9432e283
 A
 binar academy.iml,6\d\6dd337d606ce8c76719660634caaf9c760905aed
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 Å
-Q.idea/sonarlint/securityhotspotstore/b/f/bf92f7d328ddd471d0569b9bf4d1d4c8c7045632,d\c\dc14cbc119ecbb9bd8512484f76313de19a037ca
-Å
-Q.idea/sonarlint/securityhotspotstore/e/c/ec62116173a6c661f9cd3493db3ba16b389ecedb,8\6\86cb991021b8b79d180c968569fe5ac6693f8671
-Å
-Q.idea/sonarlint/securityhotspotstore/7/7/77c51c36a26317669252441a9a6245d2726ac684,d\8\d8d29373c76221b7178d7cdcb884a18f882b1888
-Å
-Q.idea/sonarlint/securityhotspotstore/5/7/57da77476fa29607a3d9bdffbe0affbce7359dd1,4\5\45aa546da47690019c66a1ed089680063bd95072
-Å
-Q.idea/sonarlint/securityhotspotstore/5/f/5f28f05f9a18c816861597cbeec0631f9432e283,6\1\618c8ce6aa7f44be484f46bee58e565e27451af0
-Å
 Q.idea/sonarlint/securityhotspotstore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138,b\0\b08f1ab659fbdd998f45c0def99188f980cc899b
-Å
-Q.idea/sonarlint/securityhotspotstore/9/3/931021d47534f42c0b4c10460524980afd31e037,a\f\afc9ef559d9b47145c5daa04ad51581b001d49ec
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 C
 payment_receipt.txt,3\6\36a11a17bc4904a92e59d61990cc354cc8f46075
-O
-src/Ch2/challange/Restoran.java,8\1\8185265013f7d1a8238190548a0285a45469e4dd
-O
-src/Ch2/Challange/Restoran.java,c\d\cd1abd01bf008b4849fe3624740d60b5e96dd97f
-b
-2src/Ch2/pertemuan2/inteface/KaryawanInterface.java,4\6\4669105d1b5076d47c9541233211a5b56f36de50
-O
-src/Ch2/pertemuan2/vechile.java,b\b\bbe7434814ae0aaf70002e1af34ff5c6ec9539fb
-b
-2src/Ch2/pertemuan2/inteface/impl/karyawanimpl.java,6\4\644cddf0e2d03c42425b2ae56efbf0c389ef04b6
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-L
-src/ch1/pertemuan2/test.java,8\b\8b00c6422fa1d28817e2db168d879f23df96f9ae
-P
- src/ch1/pertemuan2/restoran.java,4\7\471137f05e7a81d752995016aeb593ee7b691c6d
-T
-$src/ch1/pertemuan6/stringjoiner.java,c\b\cb0cd4aac0f91c75bbfe509d113efd6cc27928c7
 =
 phonebook.csv,8\7\87827d6918e072e6b5b5edd401b1f6517cd4d281
 =
 phonebook.txt,9\b\9b08f4400c86a556020ec2b85f0db6feda651ed3
-L
-src/ch1/pertemuan6/test.java,8\1\8163f9ba22616f53ea72d3ac830bc7a0689b0481
-R
-"src/Ch2/pertemuan3/SetExample.java,a\a\aa1d759835e6e80f70301cffec7185d24aa8775e
-Å
-Q.idea/sonarlint/securityhotspotstore/a/a/aa1d759835e6e80f70301cffec7185d24aa8775e,f\7\f70c1fb78623d1cd79cbd5d934c4165e87be4295
 Å
 Q.idea/sonarlint/securityhotspotstore/a/f/afc9ef559d9b47145c5daa04ad51581b001d49ec,c\5\c5226d0b713972bf3e4b8be4bae59214606f90ec
 Å
@@ -81,39 +35,21 @@ Q.idea/sonarlint/securityhotspotstore/6/d/6dd337d606ce8c76719660634caaf9c760905a
 Å
 Q.idea/sonarlint/securityhotspotstore/6/1/618c8ce6aa7f44be484f46bee58e565e27451af0,2\a\2aa685b54fc044bce17a3b8a9f1e5d858a22bd17
 Å
-Q.idea/sonarlint/securityhotspotstore/c/d/cd1abd01bf008b4849fe3624740d60b5e96dd97f,1\6\166aee90751353d46c0d873d25da1e4f4ab21c5d
-Å
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9\0\909762385fc6eb20f922a91c6865741308b57f2c
 Å
 Q.idea/sonarlint/securityhotspotstore/8/6/86cb991021b8b79d180c968569fe5ac6693f8671,0\5\05c0765013c2b9c2bb3f7f969eed38a742223ed8
-Å
-Q.idea/sonarlint/securityhotspotstore/8/1/8185265013f7d1a8238190548a0285a45469e4dd,3\4\34d4385b66887743a364021f9afc88279984ed48
-Å
-Q.idea/sonarlint/securityhotspotstore/4/7/471137f05e7a81d752995016aeb593ee7b691c6d,1\d\1d07f5f64d48153e15d84055ba031fa7cdc6efb1
-Å
-Q.idea/sonarlint/securityhotspotstore/4/6/4669105d1b5076d47c9541233211a5b56f36de50,8\1\81205bcb524d6d57ce6329c4a4538a2db80143df
 Å
 Q.idea/sonarlint/securityhotspotstore/9/b/9b08f4400c86a556020ec2b85f0db6feda651ed3,a\0\a0a5f5c5efec6861564f034aa602489e97c57818
 Å
 Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,3\0\30205a209c6ce77c4cfc19a09e6f57c588b7fb88
 Å
-Q.idea/sonarlint/securityhotspotstore/b/b/bbe7434814ae0aaf70002e1af34ff5c6ec9539fb,7\4\743487ad2a9381a0093c3eb7798cdf10869803b7
-Å
-Q.idea/sonarlint/securityhotspotstore/6/4/644cddf0e2d03c42425b2ae56efbf0c389ef04b6,e\c\ec7c2ea956e7e60f074bf992ede69dee9863f32c
-Å
 Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b\b\bbf202272a96de5cd6b6828ffdc55fb3ce45289c
-Å
-Q.idea/sonarlint/securityhotspotstore/8/b/8b00c6422fa1d28817e2db168d879f23df96f9ae,9\3\93d60c5b77f3c4df8133b4e025f64e3fdc6f268a
 Å
 Q.idea/sonarlint/securityhotspotstore/8/7/87827d6918e072e6b5b5edd401b1f6517cd4d281,8\c\8c2bd8506782e064cc40240b2f61ffad5fdda849
 Å
 Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
 Å
 Q.idea/sonarlint/securityhotspotstore/b/0/b08f1ab659fbdd998f45c0def99188f980cc899b,4\e\4e028b50ffe3b3b0e5b68667516a23fa4af8c838
-Å
-Q.idea/sonarlint/securityhotspotstore/8/1/8163f9ba22616f53ea72d3ac830bc7a0689b0481,b\8\b84a3c1fd7be3074936db0675d0efc7e69ef647a
-Å
-Q.idea/sonarlint/securityhotspotstore/c/b/cb0cd4aac0f91c75bbfe509d113efd6cc27928c7,b\6\b6eb2f21aa1a6ff22d921751fa556ad8597e4a26
 Å
 Q.idea/sonarlint/securityhotspotstore/a/0/a0a5f5c5efec6861564f034aa602489e97c57818,d\0\d01aca806eb84653de20ff5d53f18076fa406807
 Å
@@ -166,10 +102,6 @@ Q.idea/sonarlint/securityhotspotstore/2/a/2aa685b54fc044bce17a3b8a9f1e5d858a22bd
 Q.idea/sonarlint/securityhotspotstore/0/9/09640d927732235e5c7780c749ca6cb799f2c705,b\9\b903b1af45cf5d3d79f58c2d898d188c84cb8760
 Å
 Q.idea/sonarlint/securityhotspotstore/0/5/05c0765013c2b9c2bb3f7f969eed38a742223ed8,8\6\861bcc5936bc1680991c7a48a75055c83dd13b1c
-M
-src/Ch2/pertemuan4/TryEx.java,1\c\1c3b1c4403e24ebaba4a707e67d9e3ab02e16f62
-U
-%src/Ch2/pertemuan4/ThrowsExample.java,2\6\264e67e3466096809d6a0b5f10d415de7feb0ab1
 Å
 Q.idea/sonarlint/securityhotspotstore/8/6/861bcc5936bc1680991c7a48a75055c83dd13b1c,7\9\79685be220104161492d4b93c5100db4e1587b92
 Å
@@ -178,10 +110,6 @@ Q.idea/sonarlint/securityhotspotstore/5/d/5dc690d8f1f505d10a0d99e3b2b9ba93771677
 Q.idea/sonarlint/securityhotspotstore/b/f/bf4af19af8023bc16025f775c407f5a03538acb9,b\8\b87725f379b1f83fecf2b52a2a4c3c2de5308888
 Å
 Q.idea/sonarlint/securityhotspotstore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f,f\c\fc51aad2f1ebe72ffedf49fa3dfea24b513ff6fe
-Å
-Q.idea/sonarlint/securityhotspotstore/1/c/1c3b1c4403e24ebaba4a707e67d9e3ab02e16f62,e\8\e8bfb46952b50ba6dc811459c70a767c5f1471e6
-Å
-Q.idea/sonarlint/securityhotspotstore/2/6/264e67e3466096809d6a0b5f10d415de7feb0ab1,c\4\c41a9d24fe8949f47f3c5fc28793007f3c63a5d6
 Å
 Q.idea/sonarlint/securityhotspotstore/9/0/906cbef2612ab03b2da0dcfe7d4aed3780760b1f,6\5\65730254aec29723322d9612677a06464c1762f8
 Å
@@ -226,8 +154,6 @@ Q.idea/sonarlint/securityhotspotstore/d/0/d028ca44190b84b5ac46cc9a07783fc94753ef
 Q.idea/sonarlint/securityhotspotstore/3/e/3e0eae317d42c2ba988691443f36645c7ce726c0,e\4\e40d56b82c2314680ebc24de37eba23955e93bee
 Å
 Q.idea/sonarlint/securityhotspotstore/3/a/3a01e0b1632a3ec3f2f96d7dd6a5e54c2017bb04,1\7\177ebad63d3dd685b886527e4c372a1e6a6895ef
-O
-src/Ch2/pertemuan4/ThrowEx.java,e\f\ef36549d2347aa3ad56f1c39abfc8ad2b2926766
 w
 G.idea/sonarlint/issuestore/7/e/7e341e73fd462baa5581650ed34f10e789129d00,8\3\831ab38d73fde048b7884da8f85e65ce4cc24fbd
 w
@@ -322,8 +248,6 @@ w
 G.idea/sonarlint/issuestore/f/c/fc51aad2f1ebe72ffedf49fa3dfea24b513ff6fe,1\2\12b81d07a1dc56e90a3f569cafb37f9bdf9b94fa
 w
 G.idea/sonarlint/issuestore/3/1/31c845172c50fd6cd68741f1ca4248d96436f9df,2\0\20df6c6991517b6deeefda5dfb26d894d8c19f4d
-Å
-Q.idea/sonarlint/securityhotspotstore/e/f/ef36549d2347aa3ad56f1c39abfc8ad2b2926766,a\3\a3da1e1c503cdbc957023fbe16950eab6fdd72d8
 w
 G.idea/sonarlint/issuestore/4/5/45bf8d6397ac90edaf9c88fe34b3e5545d38056a,a\8\a8bfb26c88f51297679a58f37a58a9d31362bd51
 w
@@ -572,14 +496,6 @@ Q.idea/sonarlint/securityhotspotstore/2/8/28df21623b3247eda62897f24a10b21af72a16
 Q.idea/sonarlint/securityhotspotstore/2/8/2837e1a1e9e1d940f7a856e70af90df82da23787,9\0\9004e925a15e300e61d147741c71cc1750584c78
 Å
 Q.idea/sonarlint/securityhotspotstore/2/8/28fb67301fdca6c8df105c252447e9ef92da80ee,2\c\2c1a2f081a6540aaf18b2ff0dd90970d1343c677
-O
-src/ch3/challenge/Restoran.java,d\4\d47426051e415b5c3c7876daea3a1ae35fc6f705
-O
-src/ch3/pertemuan2/Product.java,3\0\3036bafe15a5c8eecd53aa9a0176032dc2209059
-U
-%src/ch3/pertemuan2/DetailProduct.java,8\a\8ad14aa4a898c309a5f2146700ca8ba5735e6ccd
-P
- src/ch3/pertemuan2/Category.java,3\e\3e116e7af6fc7d60593ef8dfa2caa10d1714b4af
 w
 G.idea/sonarlint/issuestore/5/b/5b7d3979d2ac146407ab8e8183443975f66f0d07,5\3\539eefea4a928fd3462f362f57ecd71524e812f4
 w
@@ -662,8 +578,6 @@ w
 G.idea/sonarlint/issuestore/2/5/2564f62f5b032e101cb03cd5586ed0fa87e77478,c\3\c3c0fe6b75e8f4e80bba14d8b6082c83cb25769f
 w
 G.idea/sonarlint/issuestore/2/5/251a24c32669d088d4cfb717ac8719df6151a766,a\4\a451a5e1512f73fe663ef412b654cd158abdcbd6
-Å
-Q.idea/sonarlint/securityhotspotstore/d/4/d47426051e415b5c3c7876daea3a1ae35fc6f705,8\0\806b0f85c3e120b5416a922d251dcf0ab68eae80
 w
 G.idea/sonarlint/issuestore/8/5/852d1c697532439bbc984e6255c3bc38517188ed,4\4\44cb9982ab3b41e3318627b52ce443ed394028d3
 w
@@ -821,25 +735,17 @@ G.idea/sonarlint/issuestore/d/8/d84044d36a2e6370024eb18a1f448b80fff39eec,0\8\08
 w
 G.idea/sonarlint/issuestore/d/7/d7decbf52ea100dcafb5206ec04701b0a6997266,c\1\c1d1d67c8cb93f7275a2dd2d0522f2433769b475
 Å
-Q.idea/sonarlint/securityhotspotstore/3/0/3036bafe15a5c8eecd53aa9a0176032dc2209059,5\8\582cc952145ae4b9e9d3e779ab0d4c7ae9d55363
-Å
 Q.idea/sonarlint/securityhotspotstore/9/d/9d89d6029c64e44ed489636db367f0ad61a5efc9,2\c\2cf9a8180c5db656f15d1c09d826356afd9b5d84
 Å
 Q.idea/sonarlint/securityhotspotstore/9/c/9cee2b7ca7687ca02c2de281023d97c7bfb416f6,7\4\745fd779965ba2552640fe38e6746117f0c48bac
 w
 G.idea/sonarlint/issuestore/4/1/41ee1889f2f7081b0db7d4cbd0fa545863db6319,7\6\7669d0f8488d09add3f243b568bdd4af0d54add2
-Å
-Q.idea/sonarlint/securityhotspotstore/8/a/8ad14aa4a898c309a5f2146700ca8ba5735e6ccd,3\9\39cf54f0b57a3ce97d7f7b1358d4197055ca558e
 w
 G.idea/sonarlint/issuestore/4/0/40b8f0a8cd8e84593be72b6c8b29f7260a1aeb02,d\1\d129e9fb1b3c76b448848cc5a9ff8b89ef2b543b
-Å
-Q.idea/sonarlint/securityhotspotstore/3/e/3e116e7af6fc7d60593ef8dfa2caa10d1714b4af,8\1\810f0c2c318e0c78d9dcae14aa3f4caf23e4e461
 w
 G.idea/sonarlint/issuestore/1/7/174a73bf9a27d8adad55522f3d19bf4268e5e197,3\e\3ee3c9f5c24db7cd565bc665974aeab13526f7ad
 w
 G.idea/sonarlint/issuestore/5/0/50e216b4439d2538168c3ddca9c0c2fe23bd1c02,4\7\47deea973d12bd9a7ff5999d20135c170ce61489
-Å
-Q.idea/sonarlint/securityhotspotstore/a/6/a698c0cd6003f49f37d7175731f6244d08df8c6e,1\1\11e90b4a77146ff5a205e14c8c85aa739bc9413d
 w
 G.idea/sonarlint/issuestore/a/c/ac13c424947692556687c184ffff32ae118020ac,a\6\a638b199c46cd8dae1c155470fa8872c02f745fe
 w
@@ -1052,8 +958,6 @@ Q.idea/sonarlint/securityhotspotstore/d/c/dc282ae785c9bb9115bb2892c4a74bd711e75f
 Q.idea/sonarlint/securityhotspotstore/c/3/c3e92dfd4c1fce152f72fbf7425394fb3f4bd836,f\1\f1dea7cbaf9e073849dd4a8efc2983831c28409d
 w
 G.idea/sonarlint/issuestore/f/b/fbbedb9ea5586dde70398e37d9d4b3e3a4dbb31f,4\0\402c9717e6902de5711361cab96f7b1f4f49e057
-T
-$src/ch3/pertemuan2/CategoryType.java,3\0\30f07566f5942e754a5d5281a3a3688b875950bb
 :
 
 batch7.iml,a\3\a3467ec90b329861fdd85dc839c96b3cb8389033
@@ -1253,8 +1157,6 @@ Q.idea/sonarlint/securityhotspotstore/e/b/eb217e885cce9bc297ff319c16be089e62f7d7
 Q.idea/sonarlint/securityhotspotstore/e/0/e09fa8ddad38d6b3a0911a5a0ae6570df7c2e9e5,e\6\e6c929bb8825f8996f9c19e6a697ed24a9504596
 Å
 Q.idea/sonarlint/securityhotspotstore/e/b/ebf81fbf192abd50fbea85926e4150d90c29624b,6\9\69fd257c6e1816f4473b81cd1af310b26aadaeb5
-Å
-Q.idea/sonarlint/securityhotspotstore/3/0/30f07566f5942e754a5d5281a3a3688b875950bb,0\5\0585fedd1a5402845584d546322e776679c3c505
 e
 5src/main/java/com/binar/batch7/Batch7Application.java,4\2\42f68b2e2ea09b112d14e668be17df878a8170c9
 U
@@ -1419,8 +1321,6 @@ Q.idea/sonarlint/securityhotspotstore/9/9/99412124bf5d5473d97401c840e6f36b00ed12
 Q.idea/sonarlint/securityhotspotstore/9/3/9381ac53c6a06946de3efd31c7cc3c7b2ea87813,e\6\e6e9459ae7695c8c5d07f9bc07c063ba1bc1a778
 Å
 Q.idea/sonarlint/securityhotspotstore/1/c/1c99fc0758467463d6e683701cff4df1daa22c56,4\8\486e2c920ab0b4259ebf64340165d34d9cc3fe83
-Å
-Q.idea/sonarlint/securityhotspotstore/1/1/11e90b4a77146ff5a205e14c8c85aa739bc9413d,6\f\6f2a8d333782bf09d36f20203ac2c1705d0f1869
 Å
 Q.idea/sonarlint/securityhotspotstore/8/4/84b66fd1511ffe4438965e119fc29433776c4c6d,9\d\9de0c634d4e68a7423a6567fa2e92a4aca60b767
 Å
@@ -1984,8 +1884,6 @@ Q.idea/sonarlint/securityhotspotstore/e/9/e9cafd8ddb8086dfac9f57d96c07565dcab75a
 w
 G.idea/sonarlint/issuestore/1/c/1c99fc0758467463d6e683701cff4df1daa22c56,f\6\f69dc3a3b5620fb720eab4de82d62fc1507ba244
 w
-G.idea/sonarlint/issuestore/1/1/11e90b4a77146ff5a205e14c8c85aa739bc9413d,1\d\1dc43bf25e9131f3778f4b5c946bfe016b507ef5
-w
 G.idea/sonarlint/issuestore/5/3/539eefea4a928fd3462f362f57ecd71524e812f4,9\2\924e832c8715a75912f8d92806b0a6e2ebc97bf5
 w
 G.idea/sonarlint/issuestore/1/c/1c318bb90509c79841b30176a3392d617461bb7d,9\0\90420931fe58652b7b2c1ae2ae3e775b4beb7fa9
@@ -2119,3 +2017,7 @@ G.idea/sonarlint/issuestore/c/1/c1d1d67c8cb93f7275a2dd2d0522f2433769b475,5\8\58
 Q.idea/sonarlint/securityhotspotstore/3/9/394dedd2ca9bbc220d829d40119caec644c7f73f,7\9\79cdd1630447fe81f462fdaff73d60691194fea2
 h
 8src/main/java/com/binar/batch7/ch3/pertemuan2/Main2.java,d\3\d3c7fc227044bdeb102710fc1a1eb80b8b854ca6
+k
+;src/main/java/com/binar/batch7/ch3/pertemuan3/lambdaEx.java,5\e\5e81f4f141d0bbc57b646bce00a1cda85d8d5a31
+s
+Csrc/main/java/com/binar/batch7/ch3/pertemuan3/methodRefernceEx.java,d\4\d47d0bcf7ada739a492940c6e2613f6c9ae9afe4

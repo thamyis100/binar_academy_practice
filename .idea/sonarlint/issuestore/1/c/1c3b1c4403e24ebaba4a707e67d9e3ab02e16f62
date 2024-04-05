@@ -1,18 +1,0 @@
-
-”
-java:S1192"QDefine a constant instead of duplicating this literal "handling eror 1=" 3 times.(ğ¹ß 8æ³°ç1J$43bd47ae-2a3f-49a8-9203-776bb15fd471
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§ÒÑ¯8è³°ç1J$786a587a-0fe6-4215-94f1-4efd0d1e7391
-‰
-java:S2259
-"AA "NullPointerException" could be thrown; "str" is nullable here.(’‡¬ùÿÿÿÿ8ë³°ç1J$dfbf26a4-c9a3-4865-8351-6d45077d69c8
-
-java:S1854"7Remove this useless assignment to local variable "str".(ÙÀÚÎùÿÿÿÿ8í³°ç1J$152e92dd-1da8-427e-9d2f-ca311aad32c2
-r	java:S106"+Replace this use of System.out by a logger.(îÁ–ûÿÿÿÿ8ñ³°ç1J$ff471aa1-d2e3-41b1-8bb9-9f7d3929b4ca
-m	java:S106"+Replace this use of System.out by a logger.(ğ¹ß 8ñ³°ç1J$d125e399-eba3-4f03-8fc1-17b74fba020c
-r	java:S106"+Replace this use of System.out by a logger.(®…‡–ùÿÿÿÿ8ó³°ç1J$2a2bb596-95a8-4816-89ba-3993704e390b
-r	java:S106"+Replace this use of System.out by a logger.(­ìÿÿÿÿÿ8ó³°ç1J$886c3ba1-94b3-4c61-b34a-28ab24d26085
-m	java:S106"+Replace this use of System.out by a logger.(ğ¹ß 8ô³°ç1J$dbbecfca-755d-4b0b-aa4c-6e6f5a99b72c
-r	java:S106"+Replace this use of System.out by a logger.(‚¢†÷şÿÿÿÿ8ô³°ç1J$db717eea-a762-4fee-a2e8-0a42dc89f990
-m	java:S106#"+Replace this use of System.out by a logger.(Õ¯¸8˜¼³°ç1J$55dce65a-fb79-4cd4-9194-2e227dab79a1
-m	java:S106%"+Replace this use of System.out by a logger.(ğ¹ß 8‡Èµ°ç1J$10b712f0-afee-4542-91e9-de59ed3aede3
-r	java:S106("+Replace this use of System.out by a logger.(ª°×Ìıÿÿÿÿ8±¶°ç1J$394148a8-8592-4068-abb2-ce136d3c421f
