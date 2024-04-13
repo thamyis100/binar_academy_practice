@@ -1,5 +1,4 @@
-package com.binar.batch7.ch3.challenge; // Noncompliant
-
+package com.binar.batch7.ch3.challenge;
 
 import lombok.Getter;
 
@@ -7,12 +6,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
-
+import java.util.stream.Collectors;
 
 @Getter
-class Order{
-    private  String menu;
-    private  Integer qty;
+class Order {
+    private final String menu;
+    private final Integer qty;
 
     public Order(String menu, Integer qty) {
         this.menu = menu;
@@ -21,14 +20,17 @@ class Order{
 }
 
 public class Restoran {
-    private static final Map<String, Integer> menu = new HashMap<>();
+    private static final Map<String, Integer> menu = new LinkedHashMap<>();
     private static final List<Order> orders = new ArrayList<>();
+
     static {
         menu.put("Nasi Goreng", 15000);
         menu.put("Mie Goreng", 13000);
         menu.put("Nasi + Ayam", 18000);
         menu.put("Es Teh Manis", 3000);
         menu.put("Es Jeruk", 5000);
+        menu.put("Menu A", 0); // Added menu with value 0
+        menu.put("Menu B", 0); // Added menu with value 0
     }
 
     public static void main(String[] args) {
@@ -48,7 +50,11 @@ public class Restoran {
 
             //looping manggil menu
             AtomicInteger index = new AtomicInteger(1); // Start index from 1
-            menu.forEach((key, value) -> print(index.getAndIncrement() + ". " + key + "\t" + "\t| " + value));
+            menu.forEach((key, value) -> {
+                if (value != 0) {
+                    print(index.getAndIncrement() + ". " + key + "\t" + "\t| " + value);
+                }
+            });
 
             print("""
                     99. Pesan dan Bayar
@@ -70,24 +76,39 @@ public class Restoran {
             }
 
             //logika pilihan
-            qty(choice,scanner);
+            qty(choice, scanner);
 
 
-        }while (choice!=0);
+        } while (choice != 0);
         thanks();
         System.exit(0);
     }
 
-
     //function
-    public static void  print (String teks){
+    private static String getMenuByKeyIndex(int choice) {
+        return menu.keySet().stream()
+                .skip(choice - 1)
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("Invalid choice"));
+    }
+
+    public static void print(String teks) {
         System.out.println(teks);
     }
 
-    public static void thanks(){print("Terima kasih telah menggunakan aplikasi.");}
+    public static void thanks() {
+        print("Terima kasih telah menggunakan aplikasi.");
+    }
 
-    public static void total(Integer total){print("Total\t\t\t" + total);}
+    public static void total(Integer total) {
+        print("Total\t\t\t" + total);
+    }
 
+    private static class ZeroValueHandler {
+        public void handleZeroValue(String chosenItem) {
+            print("Menu " + chosenItem + " is not available.");
+        }
+    }
 
     // page
     public static void confirmOrder(List<Order> orders) {
@@ -114,10 +135,10 @@ public class Restoran {
                 0. Keluar aplikasi
                 =>""");
 
-//input
+        //input
         Scanner scanner = new Scanner(System.in);
         int choice2 = scanner.nextInt();
-//logika input
+        //logika input
         switch (choice2) {
             case 1:
                 //receipt.txt
@@ -135,7 +156,7 @@ public class Restoran {
                 """);
 
                 orders.forEach(order ->
-                    print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty())
+                        print(order.getMenu() + "\t" + "\t" + (order.getQty() / menu.get(order.getMenu())) + "\t" + order.getQty())
                 );
 
                 print("------------------------------ +");
@@ -165,46 +186,50 @@ public class Restoran {
     }
 
     private static void qty(int choice, Scanner scanner) {
-
         if (choice >= 1 && choice <= menu.size()) {
-            int qty =0;
-            do {
-                String chosenItem = (String) menu.keySet().toArray()[choice - 1];
-                int price = menu.get(chosenItem);
-                print("""
-                        ==========================
-                        Berapa pesanan anda
-                        ==========================
-                        """);
-                print(chosenItem + "\t| " + price);
-                print("(input 0 untuk kembali)\n\nqty => ");
-                try {
-                    qty = Integer.parseInt(scanner.next());
-                    if (qty == 0) {
-                        print("""
-                                ==========================
-                                Minimal 1 jumlah pesanan
-                                ==========================""");
+            String chosenItem = getMenuByKeyIndex(choice);
+            if (menu.get(chosenItem) == 0) {
+                Optional<ZeroValueHandler> handler = Optional.ofNullable(new ZeroValueHandler());
+                handler.ifPresent(h -> h.handleZeroValue(chosenItem));
+            } else {
+                int qty = 0;
+                do {
+                    int price = menu.get(chosenItem);
+                    print("""
+                            ==========================
+                            Berapa pesanan anda
+                            ==========================
+                            """);
+                    print(chosenItem + "\t| " + price);
+                    print("(input 0 untuk kembali)\n\nqty => ");
+                    try {
+                        qty = Integer.parseInt(scanner.next());
+                        if (qty == 0) {
+                            print("""
+                                    ==========================
+                                    Minimal 1 jumlah pesanan
+                                    ==========================""");
 
-                        scanner = new Scanner(System.in);
-                        scanner.nextLine(); // Wait for the user to press enter
-                    } else {
-                        Order order1 = new Order(chosenItem, price*qty);
-                        orders.add(order1);
+                            scanner = new Scanner(System.in);
+                            scanner.nextLine(); // Wait for the user to press enter
+                        } else {
+                            Order order1 = new Order(chosenItem, price * qty);
+                            orders.add(order1);
+                        }
+                    } catch (NumberFormatException e) {
+                        print("Input tidak valid. Mohon masukkan angka.");
                     }
-                } catch (NumberFormatException e) {
-                    print("Input tidak valid. Mohon masukkan angka.");
-                }
-            }while (qty==0);
-
+                } while (qty == 0);
+            }
         } else if (choice == 99) {
             confirmOrder(orders);
-        }else {
+        } else {
             print("pilih yg ada di menu");
         }
     }
 
-    private static void confirmLeave(){
+
+    private static void confirmLeave() {
         print("\n==========================");
         print("Mohon masukkan input");
         print("pillihan anda");
@@ -215,20 +240,17 @@ public class Restoran {
         //input
         Scanner scanner = new Scanner(System.in);
         String choice3 = scanner.next();
-        if (choice3.equals("n")){
+        if (choice3.equals("n")) {
             thanks();
             System.exit(0);
         }
-
-
     }
-
 
     //receipt
     private static void generatePaymentReceipt(List<Order> orders, AtomicInteger total) {
         // Prepare the receipt content using StringBuilder
         StringBuilder receiptContent = new StringBuilder();
-        String garis="==========================\n";
+        String garis = "==========================\n";
         receiptContent.append(garis);
         receiptContent.append("BinarFud\n");
         receiptContent.append(garis);
@@ -256,4 +278,5 @@ public class Restoran {
             e.printStackTrace();
         }
     }
+
 }
